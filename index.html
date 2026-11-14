@@ -38,7 +38,7 @@ option{background:#2a1b0c;color:#f3e6c4}
 #cmds::-webkit-scrollbar{width:12px}#cmds::-webkit-scrollbar-thumb{background:#c09a50;border-radius:6px}#cmds::-webkit-scrollbar-track{background:#0004}
 #netw{position:fixed;top:84px;left:50%;transform:translateX(-50%);background:rgba(10,30,60,.9);border:2px solid #60a0ff;border-radius:8px;padding:6px 16px;font-size:15px;z-index:30;display:none}
 #menu>:first-child{margin-top:auto}#menu>:last-child{margin-bottom:auto}
-#online .og{margin:4px 0}#teams label{margin-right:6px;white-space:nowrap}
+#online .og{margin:4px 0}#menu.inonl>.mbtn{display:none!important}#menu.inonl #online{border:2px solid #e6b450;border-radius:10px;padding:10px;margin:10px auto;max-width:900px;background:rgba(0,0,0,.4);font-size:17px}#cdn{position:fixed;inset:0;display:none;align-items:center;justify-content:center;text-align:center;color:#ffe6a0;text-shadow:0 0 18px #000,0 0 6px #000;background:rgba(0,0,0,.65);pointer-events:none;z-index:50;font-weight:bold}#teams label{margin-right:6px;white-space:nowrap}
 #vic{position:absolute;top:44px;left:50%;transform:translateX(-50%);background:rgba(60,10,5,.88);border:2px solid #ff8060;border-radius:8px;padding:6px 16px;font-size:16px;z-index:4;display:none;text-align:center;line-height:1.5}
 #fps{position:absolute;left:8px;top:40px;font:12px monospace;color:#9f9;background:#000a;padding:2px 6px;border-radius:4px;z-index:5;display:none}
 #ver{position:absolute;right:12px;bottom:8px;font-size:13px;opacity:.6}
@@ -52,7 +52,7 @@ button:hover{border-color:#ffd77a;background:linear-gradient(#9a7440,#5d4320)}
 <div id="bottom"><canvas id="mm" width="190" height="160"></canvas><div id="info"></div><div id="cmds"></div></div></div>
 <div id="tip"></div>
 <div id="netw"></div>
-<div id="menu"><h1>HEARTHWALL</h1><div class="sub">Gather. Build. Advance through the ages. Conquer.</div><div id="ver">Hearthwall v1.16.1 · 14 Nov 2026</div>
+<div id="menu"><h1>HEARTHWALL</h1><div class="sub">Gather. Build. Advance through the ages. Conquer.</div><div id="ver">Hearthwall v1.16.2 · 14 Nov 2026</div>
  <button class="mbtn" id="gotut">📜 Learn to Play (Tutorial)</button>
  <button class="mbtn" onclick="campMenu()">🏰 Campaign: The Founding of Hearthwall</button>
  <button class="mbtn" id="go">⚔️ Skirmish vs Computer</button>
